@@ -54,7 +54,7 @@ export function showFavourite(value) {
 export function handleMovieSearch(movie) {
   return async function (dispatch) {
     const res = await fetch(
-      `http://www.omdbapi.com/?t=${movie}&apikey=891a9115`
+      `https://www.omdbapi.com/?t=${movie}&apikey=891a9115`
     );
     const data = await res.json();
     dispatch(addSearchResult(data));
