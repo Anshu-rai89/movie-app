@@ -1,7 +1,7 @@
 import "./App.css";
 import NavbarComponent from "./component/navbar";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Switch,
   Redirect,
